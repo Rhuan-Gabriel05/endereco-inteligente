@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Endereço</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="janela">
+
+        <div class="barra-titulo">
+            <span>Cadastro de Endereço</span>
+
+            <div class="botoes-xp">
+                <button>_</button>
+                <button>□</button>
+                <button class="X">X</button>
+            </div>
+        </div>
+
+        <div class="conteudo">
+
+            <h1>Endereço Inteligente</h1>
+
+            <form id="formEndereco">
+
+                <div class="grupo">
+                    <label for="cep">CEP *</label>
+                    <input type="text" id="cep" maxlength="9">
+                </div>
+
+                <div class="grupo">
+                    <label for="logradouro">Logradouro *</label>
+                    <input type="text" id="logradouro">
+                </div>
+
+                <div class="grupo">
+                    <label for="numero">Número *</label>
+                    <input type="text" id="numero">
+                </div>
+
+                <div class="grupo">
+                    <label for="uf">UF *</label>
+                    <input type="text" id="uf" maxlength="2">
+                </div>
+
+                <div class="grupo">
+                    <label for="complemento">Complemento</label>
+                    <input type="text" id="complemento">
+                </div>
+
+                <button type="submit" class="botao">
+                    Cadastrar
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
